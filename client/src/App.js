@@ -46,7 +46,7 @@ class App extends Component {
                         name="searchTerm"
                         value={this.state.searchTerm}
                         onChange={this.handleInputChange}
-                        placeholder="Search For a Recipe"
+                        placeholder="Search for a book"
                       />
                     </Col>
                     <Col size="xs-3 sm-2">
@@ -66,7 +66,7 @@ class App extends Component {
           <Row>
             <Col size="xs-12">
               {!this.state.bookresults.length ? (
-                <h1 className="text-center">No books to Display</h1>
+                <h5 className="text-center">No books to Display</h5>
               ) : (
                 <RecipeList>
                   {this.state.bookresults.map(book => {
