@@ -1,5 +1,6 @@
 .jumbotron {
   min-height: 400px;
   padding-top: 200px;
-  background-image: url("/React-Google-Book-Search/client/public/booksLights.jpg");
+  background-image: url("/book_pages.jpg");
+  background-size: cover;
 }
